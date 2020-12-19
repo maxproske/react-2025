@@ -1,0 +1,58 @@
+{
+  // Automatic code formatting
+  "editor.formatOnSave": false,
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[nginx]": {
+    "editor.defaultFormatter": "raynigon.nginx-formatter",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  // PHP CS Fixer
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "files.associations": {
+    "*.php_cs.dist": "php"
+  },
+  // ESLint
+  "eslint.alwaysShowStatus": true,
+  // Look for .eslintrc.json files here
+  "eslint.workingDirectories": [
+    "./docker/couponbooks/server",
+    "./docker/couponbooks/client",
+    "./docker/nhl",
+    "./docker/netflixchilld"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
